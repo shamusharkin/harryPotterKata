@@ -11,13 +11,7 @@ public class ShoppingCart {
     }
     public BigDecimal cost()
     {
-        int distinctBooks=0;
-        for (int i = 0; i <5 ; i++) {
-            if (items[i] >0 )
-            {
-                distinctBooks++;
-            }
-        }
+        int distinctBooks = getDistinctBooks();
 
         if (distinctBooks == 1)
         {
@@ -41,6 +35,18 @@ public class ShoppingCart {
         }
 
         return BigDecimal.ZERO;
+    }
+
+    private int getDistinctBooks() {
+
+        int distinctBooks =0 ;
+        for (int i = 0; i <5 ; i++) {
+            if (items[i] >0 )
+            {
+                distinctBooks++;
+            }
+        }
+        return distinctBooks;
     }
 
     private BigDecimal calcCost(String multiplier)
