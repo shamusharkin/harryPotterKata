@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/HarryPotterBooks.iml" filepath="$PROJECT_DIR$/.idea/modules/HarryPotterBooks.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/HarryPotterBooks_main.iml" filepath="$PROJECT_DIR$/.idea/modules/HarryPotterBooks_main.iml" group="HarryPotterBooks" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/HarryPotterBooks_test.iml" filepath="$PROJECT_DIR$/.idea/modules/HarryPotterBooks_test.iml" group="HarryPotterBooks" />
+    </modules>
+  </component>
+</project>
