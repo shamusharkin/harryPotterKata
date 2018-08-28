@@ -15,8 +15,52 @@ public class ShoppingCartTest {
     }
     @Test
     public void testOneItem() {
-        BigDecimal eight = new BigDecimal(8);
-        sc.addItem(1, 1);  // id , qty
+        BigDecimal eight = new BigDecimal("8");
+        sc.addItem(1, 1);
         assertEquals(eight, sc.cost());
+    }
+    @Test
+    public void testTwoItemsSameBook() {
+        BigDecimal sixteen = new BigDecimal("16");
+        sc.addItem(1, 1);
+        sc.addItem(1, 1);
+        assertEquals(sixteen, sc.cost());
+    }
+
+    @Test
+    public void fivePercentDiscount() {
+        BigDecimal fixteenPoint2 = new BigDecimal("15.20");
+        sc.addItem(1, 1);
+        sc.addItem(2, 1);
+        assertEquals(fixteenPoint2, sc.cost());
+    }
+    @Test
+    public void tenPercentDiscount() {
+        BigDecimal fixteenPoint2 = new BigDecimal("21.6");
+        sc.addItem(1, 1);
+        sc.addItem(2, 1);
+        sc.addItem(3, 1);
+        assertEquals(fixteenPoint2, sc.cost());
+    }
+    @Test
+    public void twentyPercentDiscount() {
+        BigDecimal fixteenPoint2 = new BigDecimal("25.60");
+        sc.addItem(1, 1);
+        sc.addItem(2, 1);
+        sc.addItem(3, 1);
+        sc.addItem(4, 1);
+        assertEquals(fixteenPoint2, sc.cost());
+    }
+
+
+    @Test
+    public void twentyFivePercentDiscount() {
+        BigDecimal fixteenPoint2 = new BigDecimal("30.00");
+        sc.addItem(1, 1);
+        sc.addItem(2, 1);
+        sc.addItem(3, 1);
+        sc.addItem(4, 1);
+        sc.addItem(5, 1);
+        assertEquals(fixteenPoint2, sc.cost());
     }
 }
