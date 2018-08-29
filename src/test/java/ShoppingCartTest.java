@@ -19,13 +19,13 @@ public class ShoppingCartTest {
     }
 
     @Test
-    public void testOneItem() {
+    public void OneItem() {
         BigDecimal eight = new BigDecimal("8");
         sc.addItem(1, 1);
         assertEquals(eight, sc.cost());
     }
     @Test
-    public void testTwoItemsSameBook() {
+    public void TwoItemsSameBook() {
         BigDecimal sixteen = new BigDecimal("16");
         sc.addItem(1, 1);
         sc.addItem(1, 1);
@@ -41,7 +41,7 @@ public class ShoppingCartTest {
     }
     @Test
     public void tenPercentDiscount() {
-        BigDecimal twentyOnePoint6 = new BigDecimal("21.6");
+        BigDecimal twentyOnePoint6 = new BigDecimal("21.60");
         sc.addItem(1, 1);
         sc.addItem(2, 1);
         sc.addItem(3, 1);

@@ -3,7 +3,17 @@ import java.math.BigDecimal;
 public class ShoppingCart {
 
     private final BigDecimal costOfBook= new BigDecimal(8);
-    private int items[] = new int[5];
+    private int[] items = new int[5];
+    private BigDecimal[] discountMultipliers =  {
+                new BigDecimal("1"),
+                new BigDecimal("1"),
+                new BigDecimal(".95"),
+                new BigDecimal(".90"),
+                new BigDecimal(".80"),
+                new BigDecimal(".75")
+    };
+
+
     public void addItem(int itemId, int qty)
     {
         items[itemId-1] += qty;
@@ -12,29 +22,8 @@ public class ShoppingCart {
     public BigDecimal cost()
     {
         int distinctBooks = getDistinctBooks();
+        return calcCost(discountMultipliers[distinctBooks]);
 
-        if (distinctBooks == 1)
-        {
-            return calcCost("1"); //no discount
-        }
-        if (distinctBooks == 2)
-        {
-            return calcCost(".95");
-        }
-        if (distinctBooks == 3)
-        {
-            return calcCost(".9");
-        }
-        if (distinctBooks == 4)
-        {
-            return calcCost(".80");
-        }
-        if (distinctBooks == 5)
-        {
-            return calcCost(".75");
-        }
-
-        return BigDecimal.ZERO;
     }
 
     private int getDistinctBooks() {
@@ -49,11 +38,11 @@ public class ShoppingCart {
         return distinctBooks;
     }
 
-    private BigDecimal calcCost(String multiplier)
+    private BigDecimal calcCost(BigDecimal multiplier)
     {
         BigDecimal cost= new BigDecimal(0);
         for (int i = 0; i <5 ; i++) {
-            BigDecimal costOfBooks = costOfBook.multiply(new BigDecimal(items[i])).multiply(new BigDecimal(multiplier));
+            BigDecimal costOfBooks = costOfBook.multiply(new BigDecimal(items[i])).multiply(multiplier);
             cost = cost.add( costOfBooks );
         }
         return cost;
