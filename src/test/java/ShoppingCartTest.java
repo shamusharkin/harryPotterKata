@@ -14,6 +14,11 @@ public class ShoppingCartTest {
         sc = new ShoppingCart();
     }
     @Test
+    public void testZeroItem() {
+        assertEquals(BigDecimal.ZERO, sc.cost());
+    }
+
+    @Test
     public void testOneItem() {
         BigDecimal eight = new BigDecimal("8");
         sc.addItem(1, 1);
