@@ -7,7 +7,6 @@ public class ShoppingCart {
     private int[] bookSets = new int[5];
     private BigDecimal[] discountMultipliers =  {
                 new BigDecimal("1"),
-                new BigDecimal("1"),
                 new BigDecimal(".95"),
                 new BigDecimal(".90"),
                 new BigDecimal(".80"),
@@ -23,28 +22,30 @@ public class ShoppingCart {
     public BigDecimal cost()
     {
 
+        // create copy of the items
+        int[] itemsCopy = this.items.clone();
         // create sets of books to be priced
-        int highestSet = getHighestSet();
+        int highestSet = getHighestSet(itemsCopy);
         while (highestSet > 0 )
         {
             // increment set count for set
             bookSets[highestSet-1]++;
 
             // mark books as processed for costing
-            markBooksAsProcessed();
+            markBooksAsProcessed(itemsCopy);
 
-            highestSet = getHighestSet();
+            highestSet = getHighestSet(itemsCopy);
         }
 
-        // now price he sets of books
+        // now price the sets of books
 
         return calcCost();
 
     }
 
-    void markBooksAsProcessed()
+    void markBooksAsProcessed(int[] items)
     {
-        for (int i = 0; i <5 ; i++) {
+        for (int i = 0; i <items.length ; i++) {
             if (items[i] >0 )
             {
                 items[i]--;
@@ -52,10 +53,10 @@ public class ShoppingCart {
         }
     }
 
-    private int getHighestSet() {
+    private int getHighestSet(int[] items) {
 
         int highestSet =0 ;
-        for (int i = 0; i <5 ; i++) {
+        for (int i = 0; i <items.length ; i++) {
             if (items[i] >0 )
             {
                 highestSet++;
@@ -68,8 +69,8 @@ public class ShoppingCart {
     private BigDecimal calcCost()
     {
         BigDecimal cost= new BigDecimal(0);
-        for (int i = 0; i <5 ; i++) {
-            BigDecimal costOfBooks = costOfBook.multiply(new BigDecimal(bookSets[i])).multiply(new BigDecimal(i+1)).multiply( discountMultipliers[i+1]);
+        for (int i = 0; i <bookSets.length ; i++) {
+            BigDecimal costOfBooks = costOfBook.multiply(new BigDecimal(bookSets[i])).multiply(new BigDecimal(i+1)).multiply( discountMultipliers[i]);
             cost = cost.add( costOfBooks );
         }
         return cost;

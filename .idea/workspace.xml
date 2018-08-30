@@ -4,7 +4,6 @@
     <list default="true" id="bf104953-a6f6-4a41-8898-e00bd8a8c334" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ShoppingCart.java" afterPath="$PROJECT_DIR$/src/main/java/ShoppingCart.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/ShoppingCartTest.java" afterPath="$PROJECT_DIR$/src/test/java/ShoppingCartTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -36,10 +35,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ShoppingCartTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ShoppingCartTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/ShoppingCartTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="783">
+            <state relative-caret-position="737">
               <caret line="86" column="0" lean-forward="false" selection-start-line="86" selection-start-column="0" selection-end-line="86" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -58,11 +57,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ShoppingCart.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ShoppingCart.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/ShoppingCart.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="708">
-              <caret line="71" column="43" lean-forward="true" selection-start-line="71" selection-start-column="43" selection-end-line="71" selection-end-column="43" />
+            <state relative-caret-position="452">
+              <caret line="39" column="22" lean-forward="false" selection-start-line="39" selection-start-column="22" selection-end-line="39" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -368,8 +367,8 @@
       <list>
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/src/main/java/ShoppingCart.java" />
         <option value="$PROJECT_DIR$/src/test/java/ShoppingCartTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ShoppingCart.java" />
       </list>
     </option>
   </component>
@@ -495,7 +494,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ShoppingCartTest.lotsOfItems">
+  <component name="RunManager" selected="JUnit.ShoppingCartTest">
     <configuration name="ShoppingCartTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="HarryPotterBooks_test" />
@@ -685,8 +684,8 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.ShoppingCartTest.lotsOfItems" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.ShoppingCartTest" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.ShoppingCartTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.ShoppingCartTest.lotsOfItems" />
         <item index="2" class="java.lang.String" itemvalue="JUnit.ShoppingCartTest.fivePercentDiscountOn2BooksOnly" />
         <item index="3" class="java.lang.String" itemvalue="JUnit.ShoppingCartTest.twentyFivePercentDiscount" />
         <item index="4" class="java.lang.String" itemvalue="JUnit.ShoppingCartTest.twentyPercentDiscount" />
@@ -705,23 +704,11 @@
       <updated>1535443378542</updated>
       <workItem from="1535443379733" duration="690000" />
       <workItem from="1535444430119" duration="7667000" />
-      <workItem from="1535528760117" duration="6120000" />
+      <workItem from="1535528760117" duration="6690000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ShoppingCartTest - 2018.08.29 at 09h 03m 18s.xml">
-      <configuration name="ShoppingCartTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ShoppingCartTest - 2018.08.29 at 09h 07m 31s.xml">
-      <configuration name="ShoppingCartTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ShoppingCartTest - 2018.08.29 at 09h 12m 30s.xml">
-      <configuration name="ShoppingCartTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ShoppingCartTest - 2018.08.29 at 09h 12m 58s.xml">
-      <configuration name="ShoppingCartTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="ShoppingCartTest - 2018.08.30 at 10h 52m 06s.xml">
       <configuration name="ShoppingCartTest" configurationId="JUnit" />
     </history-entry>
@@ -734,15 +721,27 @@
     <history-entry file="ShoppingCartTest - 2018.08.30 at 10h 54m 00s.xml">
       <configuration name="ShoppingCartTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="ShoppingCartTest - 2018.08.30 at 11h 01m 29s.xml">
+      <configuration name="ShoppingCartTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ShoppingCartTest - 2018.08.30 at 11h 02m 22s.xml">
+      <configuration name="ShoppingCartTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ShoppingCartTest - 2018.08.30 at 11h 03m 31s.xml">
+      <configuration name="ShoppingCartTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ShoppingCartTest - 2018.08.30 at 11h 04m 04s.xml">
+      <configuration name="ShoppingCartTest" configurationId="JUnit" />
+    </history-entry>
     <history-entry file="ShoppingCartTest_fivePercentDiscountOn2BooksOnly - 2018.08.30 at 08h 39m 42s.xml">
       <configuration name="ShoppingCartTest.fivePercentDiscountOn2BooksOnly" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ShoppingCartTest_twentyPercentDiscount - 2018.08.28 at 12h 26m 09s.xml">
-      <configuration name="ShoppingCartTest.twentyPercentDiscount" configurationId="JUnit" />
+    <history-entry file="ShoppingCartTest_lotsOfItems - 2018.08.30 at 10h 55m 30s.xml">
+      <configuration name="ShoppingCartTest.lotsOfItems" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14477000" />
+    <option name="totallyTimeSpent" value="15047000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="168" y="24" width="1970" height="1343" extended-state="0" />
@@ -864,21 +863,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ShoppingCart.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="708">
-          <caret line="71" column="43" lean-forward="true" selection-start-line="71" selection-start-column="43" selection-end-line="71" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ShoppingCartTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="783">
+        <state relative-caret-position="737">
           <caret line="86" column="0" lean-forward="false" selection-start-line="86" selection-start-column="0" selection-end-line="86" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ShoppingCart.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="452">
+          <caret line="39" column="22" lean-forward="false" selection-start-line="39" selection-start-column="22" selection-end-line="39" selection-end-column="22" />
+          <folding />
         </state>
       </provider>
     </entry>
