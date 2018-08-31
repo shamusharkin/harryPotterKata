@@ -13,12 +13,12 @@ public class ShoppingCart {
                 new BigDecimal(".75")
     };
 
-
     public void addItem(int itemId, int qty)
     {
         items[itemId-1] += qty;
 
     }
+
     public BigDecimal cost()
     {
 
@@ -31,26 +31,12 @@ public class ShoppingCart {
             // increment set count for set
             bookSets[highestSet-1]++;
 
-            // mark books as processed for costing
-            markBooksAsProcessed(itemsCopy);
 
             highestSet = getHighestSet(itemsCopy);
         }
 
-        // now price the sets of books
-
         return calcCost();
 
-    }
-
-    void markBooksAsProcessed(int[] items)
-    {
-        for (int i = 0; i <items.length ; i++) {
-            if (items[i] >0 )
-            {
-                items[i]--;
-            }
-        }
     }
 
     private int getHighestSet(int[] items) {
@@ -60,11 +46,11 @@ public class ShoppingCart {
             if (items[i] >0 )
             {
                 highestSet++;
+                items[i]--;
             }
         }
         return highestSet;
     }
-
 
     private BigDecimal calcCost()
     {
