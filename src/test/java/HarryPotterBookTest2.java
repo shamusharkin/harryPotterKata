@@ -89,10 +89,6 @@ public class HarryPotterBookTest2 {
     @Test
     public void anotherTestfrominternet() {
 
-//        String[] books = {"Book1", "Book1", "Book1", "Book1", "Book1", "Book1", "Book2", "Book2",
-//                "Book2", "Book2", "Book2", "Book2" };
-//        Basket basket = new Basket(books);
-//        double totalPrice = basket.getTotalPrice();
         Books books = new Books();
         books.add("Book1");
         books.add("Book1");
