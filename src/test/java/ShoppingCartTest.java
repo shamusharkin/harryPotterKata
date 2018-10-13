@@ -87,4 +87,26 @@ public class ShoppingCartTest {
         assertEquals(fixteenPoint2, sc.cost());
     }
 
+    @Test
+    public void sixitems() {
+        BigDecimal fixteenPoint2 = new BigDecimal("48.00");
+        sc.addItem(1, 6);
+
+        assertEquals(fixteenPoint2, sc.cost());
+    }
+
+
+    @Test
+    public void Testfrominternet() {
+        BigDecimal fixteenPoint2 = new BigDecimal("91.20");
+        sc.addItem(1, 1);
+        sc.addItem(1, 1);
+        sc.addItem(1, 1);
+        sc.addItem(1, 1);
+        sc.addItem(1, 1);
+        sc.addItem(1, 1);
+        sc.addItem(2, 6);
+        assertEquals(fixteenPoint2, sc.cost());
+    }
+
 }

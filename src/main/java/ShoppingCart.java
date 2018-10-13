@@ -56,7 +56,10 @@ public class ShoppingCart {
     {
         BigDecimal cost= new BigDecimal(0);
         for (int i = 0; i <bookSets.length ; i++) {
-            BigDecimal costOfBooks = costOfBook.multiply(new BigDecimal(bookSets[i])).multiply(new BigDecimal(i+1)).multiply( discountMultipliers[i]);
+            BigDecimal costOfBooks = costOfBook
+                    .multiply(new BigDecimal(bookSets[i]))
+                    .multiply(new BigDecimal(i+1))
+                    .multiply( discountMultipliers[i]);
             cost = cost.add( costOfBooks );
         }
         return cost;
