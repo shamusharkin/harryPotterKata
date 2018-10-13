@@ -9,7 +9,6 @@ public class Books {
     }
 
     public void add(String book) {
-        Integer count = 0;
         if(book == "Book1") {
             try {
                 booklist.set(0, booklist.get(0) + 1);
@@ -53,13 +52,16 @@ public class Books {
             //get discount percent
             double discountPercent = getDiscount(finalBooks.size());
 
+            //decrement book count or remove book
+            decrementOrRemoveBook(finalBooks);
+
             //calculate total price
-            totalPrice += calculateTotalPrice(finalBooks, discountPercent);
+            totalPrice += calculateTotalPrice(finalBooks.size(), discountPercent);
         }
         return totalPrice;
     }
 
-    private double calculateTotalPrice(List<Integer> books, double discount){
+    private void decrementOrRemoveBook(List<Integer> books) {
         for (int i=0; i<books.size(); i++){
             if(booklist.get(i) > 0) {
                 booklist.set(i,books.get(i) -1);
@@ -68,7 +70,10 @@ public class Books {
                 break;
             }
         }
-        return (8 * books.size()) * discount;
+    }
+
+    private double calculateTotalPrice(int numBooks, double discount){
+        return (8 * numBooks) * discount;
     }
 
     private List<Integer> removeZeroCountBooks(List<Integer> books) {
