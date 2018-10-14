@@ -9,20 +9,13 @@ public class Books {
         HARRY_POTTER_BOOKS.add("Book4");HARRY_POTTER_BOOKS.add("Book5");
     }
 
-    public Books() {
-        booklist = new ArrayList<>();
-    }
+    public Books() { booklist = new ArrayList<>(); }
 
     public void add(String book) throws Exception {
         if(HARRY_POTTER_BOOKS.contains(book)) {
-            try {
-                booklist.set(HARRY_POTTER_BOOKS.indexOf(book), booklist.get(HARRY_POTTER_BOOKS.indexOf(book)) + 1);
-            } catch (IndexOutOfBoundsException e) {
-                booklist.add(HARRY_POTTER_BOOKS.indexOf(book), 1);
-            }
-        } else {
-            throw new Exception(book + " is not a Harry Potter Book");
-        }
+            try { booklist.set(HARRY_POTTER_BOOKS.indexOf(book), booklist.get(HARRY_POTTER_BOOKS.indexOf(book)) + 1); }
+            catch (IndexOutOfBoundsException e) { booklist.add(HARRY_POTTER_BOOKS.indexOf(book), 1); }
+        } else throw new Exception(book + " is not a Harry Potter Book");
     }
 
     public double getTotalPrice() {
@@ -32,8 +25,7 @@ public class Books {
             double discountPercent = getDiscount(finalBooks.size());
             decrementBookCounts(finalBooks);
             totalPrice += calculateTotalPrice(finalBooks.size(), discountPercent);
-        }
-        return totalPrice;
+        }return totalPrice;
     }
 
     private void decrementBookCounts(List<Integer> books) {
@@ -54,10 +46,8 @@ public class Books {
                     books.remove(i);
                     break;
                 }
-            }
-            size--;
-        }
-        return books;
+            }size--;
+        }return books;
     }
 
     private double getDiscount(int size) {
