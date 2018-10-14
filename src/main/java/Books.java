@@ -4,7 +4,6 @@ import java.util.List;
 public class Books {
     private List<Integer> booklist;
     private static final List<String> HARRY_POTTER_BOOKS = new ArrayList<>();
-
     static {
         HARRY_POTTER_BOOKS.add("Book1");HARRY_POTTER_BOOKS.add("Book2");HARRY_POTTER_BOOKS.add("Book3");
         HARRY_POTTER_BOOKS.add("Book4");HARRY_POTTER_BOOKS.add("Book5");
@@ -31,20 +30,15 @@ public class Books {
         while(booklist.size() > 0) {
             List<Integer> finalBooks = removeZeroCountBooks(booklist);
             double discountPercent = getDiscount(finalBooks.size());
-            decrementOrRemoveBook(finalBooks);
+            decrementBookCounts(finalBooks);
             totalPrice += calculateTotalPrice(finalBooks.size(), discountPercent);
         }
         return totalPrice;
     }
 
-    private void decrementOrRemoveBook(List<Integer> books) {
+    private void decrementBookCounts(List<Integer> books) {
         for (int i=0; i<books.size(); i++){
-            if(booklist.get(i) > 0) {
-                booklist.set(i,books.get(i) -1);
-            } else {
-                booklist.remove(i);
-                break;
-            }
+            if(booklist.get(i) > 0) booklist.set(i,books.get(i) -1);
         }
     }
 
