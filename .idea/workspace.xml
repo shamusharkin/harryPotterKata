@@ -4,7 +4,6 @@
     <list default="true" id="bf104953-a6f6-4a41-8898-e00bd8a8c334" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Books.java" afterPath="$PROJECT_DIR$/src/main/java/Books.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/HarryPotterBookTest2.java" afterPath="$PROJECT_DIR$/src/test/java/HarryPotterBookTest2.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -48,14 +47,14 @@
       <file leaf-file-name="Books.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/Books.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+            <state relative-caret-position="175">
+              <caret line="7" column="4" lean-forward="false" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#432#433#0" expanded="true" />
-                <element signature="e#476#477#0" expanded="true" />
-                <element signature="e#1917#1918#0" expanded="true" />
-                <element signature="e#1965#1966#0" expanded="true" />
+                <element signature="e#405#406#0" expanded="true" />
+                <element signature="e#449#450#0" expanded="true" />
+                <element signature="e#1715#1716#0" expanded="true" />
+                <element signature="e#1763#1764#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -726,8 +725,8 @@
     <history-entry file="HarryPotterBookTest2 - 2018.10.14 at 09h 16m 26s.xml">
       <configuration name="HarryPotterBookTest2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HarryPotterBookTest2_bookIsNotAHarryPotterBookInOurListOfConstants - 2018.10.14 at 09h 04m 08s.xml">
-      <configuration name="HarryPotterBookTest2.bookIsNotAHarryPotterBookInOurListOfConstants" configurationId="JUnit" />
+    <history-entry file="HarryPotterBookTest2 - 2018.10.14 at 09h 23m 08s.xml">
+      <configuration name="HarryPotterBookTest2" configurationId="JUnit" />
     </history-entry>
     <history-entry file="HarryPotterBookTest2_bookIsNotAHarryPotterBookInOurListOfConstants - 2018.10.14 at 09h 04m 16s.xml">
       <configuration name="HarryPotterBookTest2.bookIsNotAHarryPotterBookInOurListOfConstants" configurationId="JUnit" />
@@ -811,7 +810,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/Books.java</url>
-          <line>21</line>
+          <line>17</line>
           <properties />
           <option name="timeStamp" value="4" />
         </line-breakpoint>
@@ -861,10 +860,10 @@
           <caret line="10" column="34" lean-forward="false" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#432#433#0" expanded="true" />
-            <element signature="e#476#477#0" expanded="true" />
-            <element signature="e#1917#1918#0" expanded="true" />
-            <element signature="e#1965#1966#0" expanded="true" />
+            <element signature="e#405#406#0" expanded="true" />
+            <element signature="e#449#450#0" expanded="true" />
+            <element signature="e#1715#1716#0" expanded="true" />
+            <element signature="e#1763#1764#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1115,14 +1114,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Books.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+        <state relative-caret-position="175">
+          <caret line="7" column="4" lean-forward="false" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#432#433#0" expanded="true" />
-            <element signature="e#476#477#0" expanded="true" />
-            <element signature="e#1917#1918#0" expanded="true" />
-            <element signature="e#1965#1966#0" expanded="true" />
+            <element signature="e#405#406#0" expanded="true" />
+            <element signature="e#449#450#0" expanded="true" />
+            <element signature="e#1715#1716#0" expanded="true" />
+            <element signature="e#1763#1764#0" expanded="true" />
           </folding>
         </state>
       </provider>
