@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bf104953-a6f6-4a41-8898-e00bd8a8c334" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Books.java" afterPath="$PROJECT_DIR$/src/main/java/Books.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/HarryPotterBookTest2.java" afterPath="$PROJECT_DIR$/src/test/java/HarryPotterBookTest2.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -24,8 +26,8 @@
       <file leaf-file-name="ShoppingCartTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/ShoppingCartTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="41" column="0" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+            <state relative-caret-position="1400">
+              <caret line="76" column="14" lean-forward="true" selection-start-line="76" selection-start-column="14" selection-end-line="76" selection-end-column="14" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -36,7 +38,7 @@
       <file leaf-file-name="ShoppingCart.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ShoppingCart.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1512">
+            <state relative-caret-position="217">
               <caret line="62" column="27" lean-forward="false" selection-start-line="62" selection-start-column="24" selection-end-line="62" selection-end-column="27" />
               <folding />
             </state>
@@ -46,11 +48,14 @@
       <file leaf-file-name="Books.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/Books.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="25">
-              <caret line="10" column="34" lean-forward="false" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
+            <state relative-caret-position="340">
+              <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
               <folding>
-                <element signature="e#2240#2241#0" expanded="true" />
-                <element signature="e#2288#2289#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#432#433#0" expanded="true" />
+                <element signature="e#476#477#0" expanded="true" />
+                <element signature="e#1917#1918#0" expanded="true" />
+                <element signature="e#1965#1966#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -59,8 +64,8 @@
       <file leaf-file-name="HarryPotterBookTest2.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/HarryPotterBookTest2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2371">
-              <caret line="101" column="27" lean-forward="true" selection-start-line="101" selection-start-column="27" selection-end-line="101" selection-end-column="27" />
+            <state relative-caret-position="225">
+              <caret line="16" column="31" lean-forward="false" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -74,6 +79,11 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>BookDoesNotExist is not a Harry Potter Book</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -419,9 +429,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
       <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -464,7 +473,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -477,6 +487,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="extract.method.default.visibility" value="private" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/Users/shim5/workspace/HarryPotterKata/src/test/java/HarryPotterBookTest2.java" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -531,14 +542,14 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="ShoppingCartTest.Testfrominternet" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="HarryPotterBookTest2.bookIsNotAHarryPotterBookInOurListOfConstants" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="HarryPotterBooks_test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ShoppingCartTest" />
-      <option name="METHOD_NAME" value="Testfrominternet" />
+      <option name="MAIN_CLASS_NAME" value="HarryPotterBookTest2" />
+      <option name="METHOD_NAME" value="bookIsNotAHarryPotterBookInOurListOfConstants" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -551,14 +562,14 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="ShoppingCartTest.fivePercentDiscount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="HarryPotterBookTest2.fiveCopiesOfDifferentBooksPlusTwoTheSameReturnsTotalPriceWithTwentyPercentDiscountAndFullPriceForOneBook" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="HarryPotterBooks_test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ShoppingCartTest" />
-      <option name="METHOD_NAME" value="fivePercentDiscount" />
+      <option name="MAIN_CLASS_NAME" value="HarryPotterBookTest2" />
+      <option name="METHOD_NAME" value="fiveCopiesOfDifferentBooksPlusTwoTheSameReturnsTotalPriceWithTwentyPercentDiscountAndFullPriceForOneBook" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -571,14 +582,14 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="ShoppingCartTest.fivePercentDiscountOn2BooksOnly" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="HarryPotterBookTest2.fiveCopiesOfDifferentBooksReturnsTotalPriceWithTwentyPercentDiscount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="HarryPotterBooks_test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ShoppingCartTest" />
-      <option name="METHOD_NAME" value="fivePercentDiscountOn2BooksOnly" />
+      <option name="MAIN_CLASS_NAME" value="HarryPotterBookTest2" />
+      <option name="METHOD_NAME" value="fiveCopiesOfDifferentBooksReturnsTotalPriceWithTwentyPercentDiscount" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -591,14 +602,14 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="ShoppingCartTest.sixitems" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="HarryPotterBookTest2.twoCopiesOfTheSameBookReturnsTotalPriceWithNoDiscount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="HarryPotterBooks_test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ShoppingCartTest" />
-      <option name="METHOD_NAME" value="sixitems" />
+      <option name="MAIN_CLASS_NAME" value="HarryPotterBookTest2" />
+      <option name="METHOD_NAME" value="twoCopiesOfTheSameBookReturnsTotalPriceWithNoDiscount" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -672,19 +683,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.ShoppingCartTest.fivePercentDiscountOn2BooksOnly" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.ShoppingCartTest.Testfrominternet" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.ShoppingCartTest.sixitems" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.HarryPotterBookTest2" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.ShoppingCartTest.fivePercentDiscount" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.HarryPotterBookTest2" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.HarryPotterBookTest2.fiveCopiesOfDifferentBooksReturnsTotalPriceWithTwentyPercentDiscount" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.HarryPotterBookTest2.fiveCopiesOfDifferentBooksPlusTwoTheSameReturnsTotalPriceWithTwentyPercentDiscountAndFullPriceForOneBook" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.HarryPotterBookTest2.bookIsNotAHarryPotterBookInOurListOfConstants" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.HarryPotterBookTest2.twoCopiesOfTheSameBookReturnsTotalPriceWithNoDiscount" />
     </list>
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="JUnit.HarryPotterBookTest2" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.ShoppingCartTest.fivePercentDiscount" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.ShoppingCartTest.Testfrominternet" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.ShoppingCartTest.fivePercentDiscountOn2BooksOnly" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.ShoppingCartTest.sixitems" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.HarryPotterBookTest2.bookIsNotAHarryPotterBookInOurListOfConstants" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.HarryPotterBookTest2.twoCopiesOfTheSameBookReturnsTotalPriceWithNoDiscount" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.HarryPotterBookTest2.fiveCopiesOfDifferentBooksPlusTwoTheSameReturnsTotalPriceWithTwentyPercentDiscountAndFullPriceForOneBook" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.HarryPotterBookTest2.fiveCopiesOfDifferentBooksReturnsTotalPriceWithTwentyPercentDiscount" />
       </list>
     </recent_temporary>
   </component>
@@ -709,35 +720,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="HarryPotterBookTest2 - 2018.10.13 at 23h 56m 32s.xml">
+    <history-entry file="HarryPotterBookTest2 - 2018.10.14 at 09h 15m 34s.xml">
       <configuration name="HarryPotterBookTest2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HarryPotterBookTest2 - 2018.10.13 at 23h 56m 51s.xml">
+    <history-entry file="HarryPotterBookTest2 - 2018.10.14 at 09h 16m 26s.xml">
       <configuration name="HarryPotterBookTest2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HarryPotterBookTest2 - 2018.10.13 at 23h 57m 04s.xml">
-      <configuration name="HarryPotterBookTest2" configurationId="JUnit" />
+    <history-entry file="HarryPotterBookTest2_bookIsNotAHarryPotterBookInOurListOfConstants - 2018.10.14 at 09h 04m 08s.xml">
+      <configuration name="HarryPotterBookTest2.bookIsNotAHarryPotterBookInOurListOfConstants" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HarryPotterBookTest2 - 2018.10.14 at 00h 17m 34s.xml">
-      <configuration name="HarryPotterBookTest2" configurationId="JUnit" />
+    <history-entry file="HarryPotterBookTest2_bookIsNotAHarryPotterBookInOurListOfConstants - 2018.10.14 at 09h 04m 16s.xml">
+      <configuration name="HarryPotterBookTest2.bookIsNotAHarryPotterBookInOurListOfConstants" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HarryPotterBookTest2 - 2018.10.14 at 00h 23m 07s.xml">
-      <configuration name="HarryPotterBookTest2" configurationId="JUnit" />
+    <history-entry file="HarryPotterBookTest2_bookIsNotAHarryPotterBookInOurListOfConstants - 2018.10.14 at 09h 09m 55s.xml">
+      <configuration name="HarryPotterBookTest2.bookIsNotAHarryPotterBookInOurListOfConstants" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ShoppingCartTest_fivePercentDiscount - 2018.10.14 at 00h 06m 53s.xml">
-      <configuration name="ShoppingCartTest.fivePercentDiscount" configurationId="JUnit" />
+    <history-entry file="HarryPotterBookTest2_bookIsNotAHarryPotterBookInOurListOfConstants - 2018.10.14 at 09h 10m 32s.xml">
+      <configuration name="HarryPotterBookTest2.bookIsNotAHarryPotterBookInOurListOfConstants" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ShoppingCartTest_fivePercentDiscount - 2018.10.14 at 00h 09m 54s.xml">
-      <configuration name="ShoppingCartTest.fivePercentDiscount" configurationId="JUnit" />
+    <history-entry file="HarryPotterBookTest2_bookIsNotAHarryPotterBookInOurListOfConstants - 2018.10.14 at 09h 10m 50s.xml">
+      <configuration name="HarryPotterBookTest2.bookIsNotAHarryPotterBookInOurListOfConstants" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ShoppingCartTest_sixitems - 2018.09.01 at 10h 20m 23s.xml">
-      <configuration name="ShoppingCartTest.sixitems" configurationId="JUnit" />
+    <history-entry file="HarryPotterBookTest2_bookIsNotAHarryPotterBookInOurListOfConstants - 2018.10.14 at 09h 11m 23s.xml">
+      <configuration name="HarryPotterBookTest2.bookIsNotAHarryPotterBookInOurListOfConstants" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ShoppingCartTest_sixitems - 2018.09.01 at 10h 20m 32s.xml">
-      <configuration name="ShoppingCartTest.sixitems" configurationId="JUnit" />
+    <history-entry file="HarryPotterBookTest2_bookIsNotAHarryPotterBookInOurListOfConstants - 2018.10.14 at 09h 12m 08s.xml">
+      <configuration name="HarryPotterBookTest2.bookIsNotAHarryPotterBookInOurListOfConstants" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ShoppingCartTest_sixitems - 2018.09.01 at 10h 30m 40s.xml">
-      <configuration name="ShoppingCartTest.sixitems" configurationId="JUnit" />
+    <history-entry file="HarryPotterBookTest2_bookIsNotAHarryPotterBookInOurListOfConstants - 2018.10.14 at 09h 14m 33s.xml">
+      <configuration name="HarryPotterBookTest2.bookIsNotAHarryPotterBookInOurListOfConstants" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
@@ -760,7 +771,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32979593" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2027027" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2064865" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Learn" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -798,6 +809,12 @@
           <properties />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Books.java</url>
+          <line>21</line>
+          <properties />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/test/java/ShoppingCartTest.java</url>
           <line>99</line>
@@ -815,16 +832,55 @@
           <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="4" />
+      <option name="time" value="5" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/test/java/ShoppingCartTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="850">
+          <caret line="41" column="0" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ShoppingCart.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1550">
+          <caret line="62" column="27" lean-forward="false" selection-start-line="62" selection-start-column="24" selection-end-line="62" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Books.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="10" column="34" lean-forward="false" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#432#433#0" expanded="true" />
+            <element signature="e#476#477#0" expanded="true" />
+            <element signature="e#1917#1918#0" expanded="true" />
+            <element signature="e#1965#1966#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/HarryPotterBookTest2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2375">
+          <caret line="101" column="27" lean-forward="true" selection-start-line="101" selection-start-column="27" selection-end-line="101" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -850,7 +906,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -943,7 +998,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -951,7 +1005,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -966,45 +1019,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="169">
           <caret line="487" column="0" lean-forward="false" selection-start-line="487" selection-start-column="0" selection-end-line="487" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/a6c32b40bf3d76eca54e3c601e5d1470c86fcdfa/junit-4.12-sources.jar!/org/junit/internal/runners/model/ReflectiveCallable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/a6c32b40bf3d76eca54e3c601e5d1470c86fcdfa/junit-4.12-sources.jar!/org/junit/runners/BlockJUnit4ClassRunner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="79" column="0" lean-forward="false" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/a6c32b40bf3d76eca54e3c601e5d1470c86fcdfa/junit-4.12-sources.jar!/org/junit/runner/JUnitCore.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="141" column="0" lean-forward="false" selection-start-line="141" selection-start-column="0" selection-end-line="141" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/a6c32b40bf3d76eca54e3c601e5d1470c86fcdfa/junit-4.12-sources.jar!/org/junit/runners/ParentRunner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="370" column="0" lean-forward="false" selection-start-line="370" selection-start-column="0" selection-end-line="370" selection-end-column="0" />
-          <folding>
-            <element signature="e#2922#2923#0" expanded="false" />
-            <element signature="e#2966#2967#0" expanded="false" />
-            <element signature="e#10310#10449#0" expanded="false" />
-            <element signature="e#10448#10449#0" expanded="false" />
-            <element signature="e#11040#11204#0" expanded="false" />
-            <element signature="e#11203#11204#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1024,50 +1038,91 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/a6c32b40bf3d76eca54e3c601e5d1470c86fcdfa/junit-4.12-sources.jar!/org/junit/runners/model/FrameworkMethod.java">
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/a6c32b40bf3d76eca54e3c601e5d1470c86fcdfa/junit-4.12-sources.jar!/org/junit/runners/BlockJUnit4ClassRunner.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="46" column="0" lean-forward="false" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+        <state relative-caret-position="156">
+          <caret line="79" column="0" lean-forward="false" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/a6c32b40bf3d76eca54e3c601e5d1470c86fcdfa/junit-4.12-sources.jar!/org/junit/runner/JUnitCore.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="137" column="0" lean-forward="false" selection-start-line="137" selection-start-column="0" selection-end-line="137" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/a6c32b40bf3d76eca54e3c601e5d1470c86fcdfa/junit-4.12-sources.jar!/org/junit/runners/ParentRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="369" column="0" lean-forward="false" selection-start-line="369" selection-start-column="0" selection-end-line="369" selection-end-column="0" />
           <folding>
-            <element signature="e#1464#1658#0" expanded="true" />
-            <element signature="e#1657#1658#0" expanded="true" />
+            <element signature="e#2922#2923#0" expanded="false" />
+            <element signature="e#2966#2967#0" expanded="false" />
+            <element signature="e#10310#10449#0" expanded="false" />
+            <element signature="e#10448#10449#0" expanded="false" />
+            <element signature="e#11040#11204#0" expanded="false" />
+            <element signature="e#11203#11204#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ShoppingCartTest.java">
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/a6c32b40bf3d76eca54e3c601e5d1470c86fcdfa/junit-4.12-sources.jar!/org/junit/internal/runners/model/ReflectiveCallable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="41" column="0" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+        <state relative-caret-position="300">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/a6c32b40bf3d76eca54e3c601e5d1470c86fcdfa/junit-4.12-sources.jar!/org/junit/runners/model/FrameworkMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="49" column="0" lean-forward="false" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#1657#1658#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ShoppingCart.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1512">
+        <state relative-caret-position="217">
           <caret line="62" column="27" lean-forward="false" selection-start-line="62" selection-start-column="24" selection-end-line="62" selection-end-column="27" />
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ShoppingCartTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1400">
+          <caret line="76" column="14" lean-forward="true" selection-start-line="76" selection-start-column="14" selection-end-line="76" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/HarryPotterBookTest2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2371">
-          <caret line="101" column="27" lean-forward="true" selection-start-line="101" selection-start-column="27" selection-end-line="101" selection-end-column="27" />
+        <state relative-caret-position="225">
+          <caret line="16" column="31" lean-forward="false" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Books.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="10" column="34" lean-forward="false" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
+        <state relative-caret-position="340">
+          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
           <folding>
-            <element signature="e#2240#2241#0" expanded="true" />
-            <element signature="e#2288#2289#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#432#433#0" expanded="true" />
+            <element signature="e#476#477#0" expanded="true" />
+            <element signature="e#1917#1918#0" expanded="true" />
+            <element signature="e#1965#1966#0" expanded="true" />
           </folding>
         </state>
       </provider>

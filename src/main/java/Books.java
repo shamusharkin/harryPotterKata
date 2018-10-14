@@ -4,42 +4,31 @@ import java.util.List;
 public class Books {
     private List<Integer> booklist;
 
+    private static final List<String> HARRY_POTTER_BOOKS = new ArrayList<>();
+    static {
+        HARRY_POTTER_BOOKS.add("Book1");
+        HARRY_POTTER_BOOKS.add("Book2");
+        HARRY_POTTER_BOOKS.add("Book3");
+        HARRY_POTTER_BOOKS.add("Book4");
+        HARRY_POTTER_BOOKS.add("Book5");
+    }
+
     public Books() {
         booklist = new ArrayList<>();
     }
 
-    public void add(String book) {
-        if(book == "Book1") {
+    public void add(String book) throws Exception {
+
+        if(HARRY_POTTER_BOOKS.contains(book)) {
             try {
-                booklist.set(0, booklist.get(0) + 1);
+                booklist.set(HARRY_POTTER_BOOKS.indexOf(book), booklist.get(HARRY_POTTER_BOOKS.indexOf(book)) + 1);
             } catch (IndexOutOfBoundsException e) {
-                booklist.add(0, 1);
+                booklist.add(HARRY_POTTER_BOOKS.indexOf(book), 1);
             }
-        } else if(book == "Book2") {
-            try {
-                booklist.set(1, booklist.get(1) + 1);
-            } catch (IndexOutOfBoundsException e) {
-                booklist.add(1, 1);
-            }
-        } else if(book == "Book3") {
-            try {
-                booklist.set(2, booklist.get(2) + 1);
-            } catch (IndexOutOfBoundsException e) {
-                booklist.add(2, 1);
-            }
-        } else if(book == "Book4") {
-            try {
-                booklist.set(3, booklist.get(3) + 1);
-            } catch (IndexOutOfBoundsException e) {
-                booklist.add(3, 1);
-            }
-        } else if(book == "Book5") {
-            try {
-                booklist.set(4, booklist.get(4) + 1);
-            } catch (IndexOutOfBoundsException e) {
-                booklist.add(4, 1);
-            }
+        } else {
+            throw new Exception(book + " is not a Harry Potter Book");
         }
+
     }
 
     public double getTotalPrice() {

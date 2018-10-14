@@ -3,12 +3,25 @@ import org.junit.Test;
 import java.util.ArrayList;
 import java.util.List;
 
+import static junit.framework.TestCase.assertEquals;
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.core.IsEqual.equalTo;
 
 public class HarryPotterBookTest2 {
+
     @Test
-    public void oneBookReturnsTotalPriceWithNoDiscount() {
+    public void bookIsNotAHarryPotterBookInOurListOfConstants()  {
+        Books books = new Books();
+        try {
+            books.add("BookDoesNotExist");
+        } catch (Exception e) {
+            assertEquals(e.toString(), "java.lang.Exception: BookDoesNotExist is not a Harry Potter Book");
+        }
+
+    }
+
+    @Test
+    public void oneBookReturnsTotalPriceWithNoDiscount() throws Exception{
         Books books = new Books();
         books.add("Book1");
         double totalPrice = books.getTotalPrice();
@@ -16,7 +29,7 @@ public class HarryPotterBookTest2 {
     }
 
     @Test
-    public void twoCopiesOfTheSameBookReturnsTotalPriceWithNoDiscount() {
+    public void twoCopiesOfTheSameBookReturnsTotalPriceWithNoDiscount() throws Exception {
 
         Books books = new Books();
         books.add("Book1");
@@ -27,7 +40,7 @@ public class HarryPotterBookTest2 {
     }
 
     @Test
-    public void twoCopiesOfDifferentBooksReturnsTotalPriceWithFivePercentDiscount() {
+    public void twoCopiesOfDifferentBooksReturnsTotalPriceWithFivePercentDiscount() throws Exception {
 
         Books books = new Books();
         books.add("Book1");
@@ -37,7 +50,7 @@ public class HarryPotterBookTest2 {
     }
 
     @Test
-    public void fiveCopiesOfDifferentBooksReturnsTotalPriceWithTwentyPercentDiscount() {
+    public void fiveCopiesOfDifferentBooksReturnsTotalPriceWithTwentyPercentDiscount() throws Exception {
 
         Books books = new Books();
         books.add("Book1");
@@ -51,7 +64,7 @@ public class HarryPotterBookTest2 {
     }
 
     @Test
-    public void fiveCopiesOfDifferentBooksPlusTwoTheSameReturnsTotalPriceWithTwentyPercentDiscountAndFullPriceForOneBook() {
+    public void fiveCopiesOfDifferentBooksPlusTwoTheSameReturnsTotalPriceWithTwentyPercentDiscountAndFullPriceForOneBook() throws Exception{
 
         Books books = new Books();
         books.add("Book1");
@@ -67,7 +80,7 @@ public class HarryPotterBookTest2 {
     }
 
     @Test
-    public void Testfrominternet() {
+    public void Testfrominternet() throws Exception {
 
         Books books = new Books();
         books.add("Book1");
@@ -87,7 +100,7 @@ public class HarryPotterBookTest2 {
     }
 
     @Test
-    public void anotherTestfrominternet() {
+    public void anotherTestfrominternet() throws Exception {
 
         Books books = new Books();
         books.add("Book1");
