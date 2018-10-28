@@ -24,6 +24,7 @@ public class HarryPotterBookTest2 {
     public void oneBookReturnsTotalPriceWithNoDiscount() throws Exception{
         Books books = new Books();
         books.add("Book1");
+        books.add("Book1");
         double totalPrice = books.getTotalPrice();
         assertThat(totalPrice, equalTo(8.00));
     }
